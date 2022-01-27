@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Rune
+- 👀 I’m interested in Programming
+- 🌱 I’m currently learning...
+- 📫 You can reach me at discord (Rune#0734)
