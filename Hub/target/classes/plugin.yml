@@ -1,0 +1,9 @@
+name: Hub
+version: '1.0-SNAPSHOT'
+main: com.rune.hub.Main
+authors: [ Rune ]
+description: De hub plugin voor CrazeMC
+commands:
+  servers:
+    description: Open de server selector
+    usage: /<command>

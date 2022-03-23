@@ -1,0 +1,14 @@
+widm:
+  ITEM-ID: 2
+  SLOT: 21
+  NAME: "&9&lWIDM"
+  SERVER: "widm"
+  LORE:
+    - '&7Join NU!'
+bouw:
+  ITEM-ID: 166
+  SLOT: 25
+  NAME: "&2&lBouw"
+  SERVER: "bouw"
+  LORE:
+    - '&7Enkel toegang voor Bouwers'

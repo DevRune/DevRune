@@ -1,0 +1,8 @@
+com\rune\hub\Main.class
+com\rune\hub\ServersCommand.class
+com\rune\hub\events\PlayerDropItem.class
+com\rune\hub\SelectorData.class
+com\rune\hub\ConfigFile.class
+com\rune\hub\events\InventoryClick.class
+com\rune\hub\events\PlayerInteract.class
+com\rune\hub\events\PlayerJoin.class
