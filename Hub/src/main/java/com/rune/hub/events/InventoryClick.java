@@ -18,16 +18,16 @@ public class InventoryClick implements Listener {
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event) {
         Player player = (Player)event.getWhoClicked();
-        if (event.getInventory().getName().equals("§5§lCraze§d§lMC §8>> §d§lServers")) {
+        if (event.getInventory().getName().equals("§4§lRealityMC §8>> §d§lServers")) {
             event.setCancelled(true);
         }
 
         if (!event.getSlotType().equals(SlotType.OUTSIDE)) {
-            if (!event.getInventory().getName().equals("§5§lCraze§d§lMC §8>> §d§lServers")) {
+            if (!event.getInventory().getName().equals("§4§lRealityMC §8>> §d§lServers")) {
                 event.setCancelled(true);
             } else if (!event.getCurrentItem().getType().equals(Material.AIR)) {
                 if (event.getCurrentItem().hasItemMeta()) {
-                    if (event.getInventory().getName().equals("§5§lCraze§d§lMC §8>> §d§lServers")) {
+                    if (event.getInventory().getName().equals("§4§lRealityMC §8>> §d§lServers")) {
                         Iterator var4 = Main.getInstance().getSelectorData().iterator();
 
                         while(var4.hasNext()) {
