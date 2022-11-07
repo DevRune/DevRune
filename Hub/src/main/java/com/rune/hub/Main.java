@@ -48,7 +48,7 @@ public final class Main extends JavaPlugin {
         this.configfile = new ConfigFile();
         this.registerEvents();
         this.selectorData = new ArrayList();
-        this.inv = Bukkit.createInventory((InventoryHolder)null, 45, "§5§lCraze§d§lMC §8>> §d§lServers");
+        this.inv = Bukkit.createInventory((InventoryHolder)null, 45, "§4§lRealityMC §8>> §d§lServers");
         Iterator var2 = this.getConfigFile().getConfiguration().getKeys(false).iterator();
 
         while(var2.hasNext()) {
